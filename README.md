@@ -112,3 +112,23 @@ Block syntax for now provide only line above `{… cmd}$`.
 
 ## Libraries
 - [jaandrle/mdexpr-agenda: Use extended markdown syntax to simulate `org-agenda` from emacs.](https://github.com/jaandrle/mdexpr-agenda)
+
+## Ideas
+- check list progress
+```markdown
+## Headline {% todo}$
+- [ ] todo
+- [x] todo
+- [x] todo
+- [ ] todo
+{todo}$
+```
+- code export
+```markdown
+\`\`\`\`javascript
+console.log("A");
+\`\`\`\`
+{write}$
+
+{use [write](library-url) with target=export_path mdexpr}$
+```
