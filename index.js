@@ -1,1 +1,1 @@
-export * from "src/mdexpr";
+export * from "./src/mdexpr";
