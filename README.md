@@ -102,7 +102,7 @@ Reserved command name is **mdexpr**, currently supporting:
 	<summary>`{… cmd}$` explanation</summary>
 
 	This is [mdexpr](https://github.com/jaandrle/mdexpr) syntax. This document uses:
-	- {use [agenda](https://github.com/jaandrle/mdexpr-agenda) with states=TODO,NEXT|DONE}$
+	- {use [agenda](https://github.com/jaandrle/mdexpr-agenda) with states=TODO,NEXT|DONE mdexpr}$
 
 	</details>
 	```
