@@ -96,7 +96,7 @@ Reserved command name is **mdexpr**, currently supporting:
 	- **cmd** is choosed alias used in another `{… cmd}$` processed by this library
 	- *with* is optional part holding setting for library
 	- *…1*: the *context* part is ignored in this case
-	- Regular user reading document can find out this way information in *library-url*, for example use:
+	- This way, the regular user reading document can find out information in *library-url*, for example use:
 	```markdown
 	<details>
 	<summary>`{… cmd}$` explanation</summary>
@@ -109,3 +109,6 @@ Reserved command name is **mdexpr**, currently supporting:
 - Include (TBD): `{include […](another-md-file)}$`
 
 Block syntax for now provide only line above `{… cmd}$`.
+
+## Libraries
+- [jaandrle/mdexpr-agenda: Use extended markdown syntax to simulate `org-agenda` from emacs.](https://github.com/jaandrle/mdexpr-agenda)
