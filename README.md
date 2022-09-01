@@ -125,9 +125,9 @@ Block syntax for now provide only line above `{… cmd}$`.
 ```
 - code export
 ```markdown
-\`\`\`\`javascript
+~~~javascript
 console.log("A");
-\`\`\`\`
+~~~
 {write}$
 
 {use [write](library-url) with target=export_path mdexpr}$
