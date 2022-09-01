@@ -2,6 +2,16 @@
 	"name": "mdexpr",
 	"version": "0.5.0",
 	"description": "Use extended markdown syntax inspired by Org mode from emacs.",
+	"author": "Jan Andrle <andrle.jan@centrum.cz>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jaandrle/mdexpr.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jaandrle/mdexpr/issues"
+	},
+	"homepage": "https://github.com/jaandrle/mdexpr",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
@@ -16,8 +26,6 @@
 		"mdexpr",
 		"org"
 	],
-	"author": "Jan Andrle <andrle.jan@centrum.cz>",
-	"license": "MIT",
 	"jshintConfig": {
 		"esversion": 11,
 		"node": "true",
