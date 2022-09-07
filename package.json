@@ -13,6 +13,7 @@
 	},
 	"homepage": "https://github.com/jaandrle/mdexpr",
 	"main": "index.js",
+	"typings": "index.d.ts",
 	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"

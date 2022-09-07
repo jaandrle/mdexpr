@@ -22,7 +22,7 @@ cli.name(pkg.name)
 	.addHelpText("after", [
 		"",
 		"Links:",
-		"  [1] https://github.com/jaandrle/mdexpr-agenda"
+		"  [1] https://github.com/jaandrle/mdexpr"
 	].join("\n"));
 
 /** Main command ≡ processing markdown files. */
